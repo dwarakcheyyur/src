@@ -108,8 +108,7 @@ jQuery(document).ready(function($) {
     });
 });
 */
-jQuery(document).ready(function($) {
-"use strict";
+
     var $form = $('form.contactForm');
     var url = 'https://script.google.com/a/education.cloudreign.in/macros/s/AKfycbxHiX2zzZwsPJtNmsiCWgCG-GvjHNaQwClAeswvlUr5FgZRPZ4/exec';
 
@@ -124,5 +123,4 @@ $('#submit').on('click', function(e) {
         console.log("success");
     }
   })
-});
 });
