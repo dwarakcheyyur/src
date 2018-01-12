@@ -89,10 +89,11 @@ jQuery(document).ready(function($) {
                 success: function(msg){
                     console.log(msg.result);
                     if(msg.result == "success") {
+                        console.log("success");
                         console.log("OK")
-                        $("#sendmessage").addClass("show");			
+                        /*$("#sendmessage").addClass("show");			
                         $("#errormessage").removeClass("show");	
-                        $('.contactForm').find("input, textarea").val("");
+                        $('.contactForm').find("input, textarea").val("");*/
                     }
                     else {
                         console.log("NOT OK")
