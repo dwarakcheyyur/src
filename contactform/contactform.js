@@ -1,6 +1,8 @@
 
 jQuery(document).ready(function($) {
 "use strict";
+    event.preventDefault();
+    event.stopPropagation();
     var $form = $('form.contactForm');
     //Contact
     //$('form.contactForm').submit(function(event){
@@ -78,9 +80,7 @@ jQuery(document).ready(function($) {
             }
         });
         if( ferror ) return false; 
-        else var str = $form.serializeObject();
-            event.preventDefault();
-            event.stopPropagation();
+        else var str = $form.serializeObject();            
             $.ajax({
                 type: "GET",
                 dataType: "json",
@@ -91,9 +91,9 @@ jQuery(document).ready(function($) {
                     if(msg.result == "success") {
                         console.log("success");
                         console.log("OK")
-                        /*$("#sendmessage").addClass("show");			
+                        $("#sendmessage").addClass("show");			
                         $("#errormessage").removeClass("show");	
-                        $('.contactForm').find("input, textarea").val("");*/
+                        $('.contactForm').find("input, textarea").val("");
                     }
                     else {
                         console.log("NOT OK")
