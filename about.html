@@ -8,20 +8,6 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
-  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
-  <meta property="og:title" content="">
-  <meta property="og:image" content="">
-  <meta property="og:url" content="">
-  <meta property="og:site_name" content="">
-  <meta property="og:description" content="">
-
-  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="">
-  <meta name="twitter:title" content="">
-  <meta name="twitter:description" content="">
-  <meta name="twitter:image" content="">
-
   <!-- Fav and touch icons -->
   <link rel="shortcut icon" href="img/icons/CloudReign_16x16.ico">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icons/114x114.png">
@@ -33,6 +19,8 @@
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/bootstrap/css/animate.css" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap-dropdownhover.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -161,26 +149,39 @@
             <a target="_blank" href="https://www.google.com/+CloudreignIngoogleapps"><i class="fa fa-google-plus"></i></a>
           </div>
           <!--everything within this div is collapsed on mobile-->
-          <div class="navbar-collapse collapse">
+          <div class="navbar-collapse collapse" data-hover="dropdown" data-animations="fadeInDown">
             <ul class="nav navbar-nav" id="main-menu">
               <li class="icon-link">
                 <a href="index.html"><i class="fa fa-home"></i></a>
               </li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages<b class="caret"></b></a>
+                <!--a href="#" class="dropdown-toggle" data-toggle="dropdown">G Suite<b class="caret"></b></a-->
+                <a href="#">G Suite<b class="caret"></b></a>
                 <!-- Dropdown Menu -->
                 <ul class="dropdown-menu">
-                  <li class="dropdown-header">Flexor Lite Version Pages</li>
-                  <li><a href="elements.html" tabindex="-1" class="menu-item">Elements</a></li>
-                  <li><a href="about.html" tabindex="-1" class="menu-item">About / Inner Page</a></li>
-                  <li><a href="login.html" tabindex="-1" class="menu-item">Login</a></li>
-                  <li><a href="register.html" tabindex="-1" class="menu-item">Sign-Up</a></li>
-                  <li class="dropdown-footer">Dropdown footer</li>
+                  <li class="dropdown-header">G Suite Overview</li>
+                  <li><a href="elements.html" tabindex="-1" class="menu-item">Features</a></li>
+                  <li><a href="about.html" tabindex="-1" class="menu-item">Benefits</a></li>
+                  <li><a href="login.html" tabindex="-1" class="menu-item">Security</a></li>
+                  <li><a href="register.html" tabindex="-1" class="menu-item">Resources</a></li>
+                  <li class="dropdown-footer">Go to Cloud with G Suite</li>
                 </ul>
               </li>
-              <li><a href="#">Menu Link</a></li>
+              <li class="dropdown">
+                <!--a href="#" class="dropdown-toggle" data-toggle="dropdown">CAALMS<b class="caret"></b></a-->
+                <a href="#">CAALMS<b class="caret"></b></a>
+                <!-- Dropdown Menu -->
+                <ul class="dropdown-menu">
+                  <li class="dropdown-header">CAALMS Overview</li>
+                  <li><a href="elements.html" tabindex="-1" class="menu-item">Features</a></li>
+                  <li><a href="about.html" tabindex="-1" class="menu-item">Benefits</a></li>                  
+                  <li><a href="register.html" tabindex="-1" class="menu-item">Resources</a></li>
+                  <li class="dropdown-footer">Manage your Class</li>
+                </ul>
+              </li>
               <li class="dropdown dropdown-mm">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mega Menu<b class="caret"></b></a>
+                <!--a href="#" class="dropdown-toggle" data-toggle="dropdown">Mega Menu<b class="caret"></b></a-->
+                <a href="#">Mega Menu<b class="caret"></b></a>
                 <!-- Dropdown Menu -->
                 <ul class="dropdown-menu dropdown-menu-mm dropdown-menu-persist">
                   <li class="row">
@@ -282,12 +283,12 @@
                   <small>How It All Began</small>
                 </a>
             </li>
-            <li>
+            <!--li>
               <a href="#">
                   The Team
                   <small>Our team of stars</small>
                 </a>
-            </li>
+            </li-->
             <li>
               <a href="#">
                   Contact Us
@@ -454,6 +455,7 @@
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery.serialize-object.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap-dropdownhover.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/stellar/stellar.min.js"></script>
   <script src="lib/waypoints/waypoints.min.js"></script>
