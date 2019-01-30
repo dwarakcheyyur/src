@@ -7,6 +7,20 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
+  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
   <!-- Fav and touch icons -->
   <link rel="shortcut icon" href="img/icons/CloudReign_16x16.ico">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icons/114x114.png">
@@ -18,8 +32,6 @@
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="lib/bootstrap/css/animate.css" rel="stylesheet">
-  <link href="lib/bootstrap/css/bootstrap-dropdownhover.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -34,6 +46,12 @@
   <link href="#" id="colour-scheme" rel="stylesheet">
   <!--link href="css/colour-blue.css" id="colour-scheme" rel="stylesheet"-->
 
+  <!-- =======================================================
+    Theme Name: Flexor
+    Theme URL: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
 </head>
 
 <body class="page-index has-hero">
@@ -69,7 +87,31 @@
                   <abbr title="Email"><i class="fa fa-envelope-alt"></i></abbr>
                   sales@cloudreign.in
                 </address>
-            </div>            
+            </div>
+            <!--div class="col-md-6">
+              //<Colour & Background Switch for demo - @todo: remove in production>
+              <h3>
+                  Theme Variations
+                </h3>
+              <div class="switcher">
+                <div class="cols">
+                  Backgrounds:
+                  <br>
+                  <a href="#benches" class="background benches active" title="Benches">Benches</a> <a href="#boots" class="background boots " title="Boots">Boots</a> <a href="#buildings" class="background buildings " title="Buildings">Buildings</a>
+                  <a
+                    href="#city" class="background city " title="City">City</a> <a href="#metro" class="background metro " title="Metro">Metro</a>
+                </div>
+                <div class="cols">
+                  Colours:
+                  <br>
+                  <a href="#orange" class="colour orange active" title="Orange">Orange</a> <a href="#green" class="colour green " title="Green">Green</a> <a href="#blue" class="colour blue " title="Blue">Blue</a> <a href="#lavender" class="colour lavender "
+                    title="Lavender">Lavender</a>
+                </div>
+              </div>
+              <p>
+                <small>Selection is not persistent.</small>
+              </p>
+            </div-->
           </div>
         </div>
       </div>
@@ -117,57 +159,53 @@
             <a target="_blank" href="https://www.google.com/+CloudreignIngoogleapps"><i class="fa fa-google-plus"></i></a>
           </div>
           <!--everything within this div is collapsed on mobile-->
-          <div class="navbar-collapse collapse" data-hover="dropdown" data-animations="fadeInDown">
+          <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav" id="main-menu">
               <li class="icon-link">
                 <a href="index.html"><i class="fa fa-home"></i></a>
               </li>
-              <li class="dropdown">                
-                <a href="#">Digital Classroom<b class="caret"></b></a>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages<b class="caret"></b></a>
                 <!-- Dropdown Menu -->
                 <ul class="dropdown-menu">
-                  <li class="dropdown-header">Overview</li>
-                  <li><a href="caalms-features.html" tabindex="-1" class="menu-item">Features</a></li>
-                  <li><a href="caalms-benefits.html" tabindex="-1" class="menu-item">Benefits</a></li>                  
-                  <li><a href="caalms-support.html" tabindex="-1" class="menu-item">Support</a></li>
-                  <li class="dropdown-footer">Manage your Class</li>
+                  <li class="dropdown-header">Flexor Version Pages</li>
+                  <li><a href="elements.html" tabindex="-1" class="menu-item">Elements</a></li>
+                  <li><a href="about.html" tabindex="-1" class="menu-item">About / Inner Page</a></li>
+                  <li><a href="login.html" tabindex="-1" class="menu-item">Login</a></li>
+                  <li><a href="register.html" tabindex="-1" class="menu-item">Sign-Up</a></li>
+                  <li class="dropdown-footer">Dropdown footer</li>
                 </ul>
               </li>
-              <li class="dropdown">                
-                <a href="#">G Suite<b class="caret"></b></a>
+              <li><a href="#">Menu Link</a></li>
+              <li class="dropdown dropdown-mm">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mega Menu<b class="caret"></b></a>
                 <!-- Dropdown Menu -->
-                <ul class="dropdown-menu">
-                  <li class="dropdown-header">G Suite Overview</li>
-                  <li><a href="gsfeatures.html" tabindex="-1" class="menu-item">Features</a></li>
-                  <li><a href="gsbenefits.html" tabindex="-1" class="menu-item">Benefits</a></li>
-                  <li><a href="gssecurity.html" tabindex="-1" class="menu-item">Security</a></li>
-                  <li><a href="gsresources.html" tabindex="-1" class="menu-item">Resources</a></li>
-                  <li><a href="gsandroid.html" tabindex="-1" class="menu-item">Android for Work</a></li>
-                  <li><a href="vault.html" tabindex="-1" class="menu-item">Vault</a></li>
-                  <li class="dropdown-footer">Go to Cloud with G Suite</li>
+                <ul class="dropdown-menu dropdown-menu-mm dropdown-menu-persist">
+                  <li class="row">
+                    <ul class="col-md-6">
+                      <li class="dropdown-header">Websites and Apps</li>
+                      <li><a href="#">Analysis and Planning</a></li>
+                      <li><a href="#">User Experience / Information Architecture</a></li>
+                      <li><a href="#">User Interface Design / UI Design</a></li>
+                      <li><a href="#">Code &amp; Development / Implementation &amp; Support</a></li>
+                    </ul>
+                    <ul class="col-md-6">
+                      <li class="dropdown-header">Enterprise solutions</li>
+                      <li><a href="#">Business Analysis</a></li>
+                      <li><a href="#">Custom UX Consulting</a></li>
+                      <li><a href="#">Quality Assurance</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-footer">
+                    <div class="row">
+                      <div class="col-md-7">Like the lite version? <strong>Get the extended version of Flexor.</strong></div>
+                      <div class="col-md-5">
+                        <a href="https://bootstrapmade.com" class="btn btn-more btn-lg pull-right"><i class="fa fa-cloud-download"></i> Get It Now</a>
+                      </div>
+                    </div>
+                  </li>
                 </ul>
               </li>
-              <li class="dropdown">                
-                <a href="#">Chrome<b class="caret"></b></a>
-                <!-- Dropdown Menu -->
-                <ul class="dropdown-menu">
-                  <li class="dropdown-header">Chrome based Products</li>
-                  <li><a href="chrome-ent.html" tabindex="-1" class="menu-item">Enterprise</a></li>
-                  <li><a href="cfm.html" tabindex="-1" class="menu-item">Chrome for Meetings</a></li>
-                  <li><a href="signage.html" tabindex="-1" class="menu-item">Signage</a></li>
-                  <li class="dropdown-footer">For Peace of Mind</li>
-                </ul>
-              </li>
-              <li class="dropdown">                
-                <a href="#">Training<b class="caret"></b></a>
-                <!-- Dropdown Menu -->
-                <ul class="dropdown-menu">
-                  <li class="dropdown-header">Training Overview</li>
-                  <li><a href="product-training.html" tabindex="-1" class="menu-item">Product Training</a></li>
-                  <li><a href="tech-training.html" tabindex="-1" class="menu-item">Technology Training</a></li>
-                  <li class="dropdown-footer">Become Knowledgeable</li>
-                </ul>
-              </li>              
             </ul>
           </div>
           <!--/.navbar-collapse -->
@@ -185,14 +223,13 @@
               <div class="row">
                 <div class="col-md-6 col-md-push-6 item-caption">
                   <h2 class="h1 text-weight-light">
-                      Digital <span class="text-primary">Classroom</span>
+                      CloudReign <span class="text-primary">CAALMS</span>
                     </h2>
                   <h4>
-                      Classroom, Assignment, Assessment & Lesson Plan Management
+                      Classroom, Assignment, Assessment & Lesson Plan Management System
                     </h4>
-				<!--p>CAALMS helps teachers to easily create a virtual classroom, distribute classroom content, make lesson plans available and reuse content each year saving valuable time. It also helps get content from external platforms like youtube and Khan academy.</p-->
-				<p>Digital Classroom is a partner managed solution using Google technologies.  CloudRegin will manage the entire academic solution for the school including implementation, training,  year-on-year management of new students, promotion to next class etc.</p>
-                  <a href="caalms-features.html" class="btn btn-more btn-lg i-right">Know More<i class="fa fa-plus"></i></a>
+                  <p>CAALMS helps teachers to easily create a virtual classroom, distribute classroom content, make lesson plans available and reuse content each year saving valuable time. It also helps get content from external platforms like youtube and Khan academy.</p>
+                  <a href="#pricing" class="btn btn-more btn-lg i-right">Buy Now <i class="fa fa-plus"></i></a>
                 </div>
                 <div class="col-md-6 col-md-pull-6 hidden-xs">
                   <img src="img/CR/slide1.png" alt="Slide 1" class="center-block img-responsive">
@@ -200,7 +237,7 @@
               </div>
             </div>
             <!--Slide 2-->
-            <!--div class="item">
+            <div class="item">
               <div class="row">
                 <div class="col-md-6 text-right-md item-caption">
                   <h2 class="h1 text-weight-light">
@@ -217,7 +254,7 @@
                 </div>
               </div>
             </div>
-            <Slide 3-->
+            <!--Slide 3-->
             <div class="item">
               <div class="row">
                 <div class="col-md-6 text-right-md item-caption">
@@ -228,7 +265,7 @@
                       G Suite by Google Cloud. All you need to work on the Go.
                     </h4>
                   <p>Messaging and Collaboration suite for the mordern day office. GMail, Calendar, Drive, Docs, Hangouts (Meet) and much more</p>
-                  <a href="gsfeatures.html" class="btn btn-more btn-lg"><i class="fa fa-plus"></i> Learn More</a>
+                  <a href="https://bootstrapmade.com" class="btn btn-more btn-lg"><i class="fa fa-plus"></i> Learn More</a>
                 </div>
                 <div class="col-md-6 hidden-xs">
                   <img src="img/CR/slide3.png" alt="Slide 2" class="center-block img-responsive">
@@ -264,12 +301,12 @@
             <a href="#" class="overlay-wrapper">
                 <img src="img/showcase/project1.png" alt="Project 1 image" class="img-responsive underlay">
                 <span class="overlay">
-                  <span class="overlay-content"> <span class="h4">G Suite</span> </span>
+                  <span class="overlay-content"> <span class="h4">Project 1</span> </span>
                 </span>
               </a>
             <div class="item-details bg-noise">
               <h4 class="item-title">
-                  <a href="#">G Suite</a>
+                  <a href="#">Project 1</a>
                 </h4>
               <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
             </div>
@@ -278,12 +315,12 @@
             <a href="#" class="overlay-wrapper">
                 <img src="img/showcase/project2.png" alt="Project 2 image" class="img-responsive underlay">
                 <span class="overlay">
-                  <span class="overlay-content"> <span class="h4">CAALMS</span> </span>
+                  <span class="overlay-content"> <span class="h4">Project 2</span> </span>
                 </span>
               </a>
             <div class="item-details bg-noise">
               <h4 class="item-title">
-                  <a href="#">CAALMS</a>
+                  <a href="#">Project 2</a>
                 </h4>
               <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
             </div>
@@ -292,12 +329,12 @@
             <a href="#" class="overlay-wrapper">
                 <img src="img/showcase/project3.png" alt="Project 3 image" class="img-responsive underlay">
                 <span class="overlay">
-                  <span class="overlay-content"> <span class="h4">Devices for Work</span> </span>
+                  <span class="overlay-content"> <span class="h4">Project 3</span> </span>
                 </span>
               </a>
             <div class="item-details bg-noise">
               <h4 class="item-title">
-                  <a href="#">Devices for Work</a>
+                  <a href="#">Project 3</a>
                 </h4>
               <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
             </div>
@@ -306,12 +343,12 @@
             <a href="#" class="overlay-wrapper">
                 <img src="img/showcase/project4.png" alt="Project 4 image" class="img-responsive underlay">
                 <span class="overlay">
-                  <span class="overlay-content"> <span class="h4">CFM</span> </span>
+                  <span class="overlay-content"> <span class="h4">Project 4</span> </span>
                 </span>
               </a>
             <div class="item-details bg-noise">
               <h4 class="item-title">
-                  <a href="#">CFM</a>
+                  <a href="#">Project 4</a>
                 </h4>
               <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
             </div>
@@ -320,12 +357,12 @@
             <a href="#" class="overlay-wrapper">
                 <img src="img/showcase/project5.png" alt="Project 5 image" class="img-responsive underlay">
                 <span class="overlay">
-                  <span class="overlay-content"> <span class="h4">Digital Signage</span> </span>
+                  <span class="overlay-content"> <span class="h4">Project 5</span> </span>
                 </span>
               </a>
             <div class="item-details bg-noise">
               <h4 class="item-title">
-                  <a href="#">Digital Signage</a>
+                  <a href="#">Project 5</a>
                 </h4>
               <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
             </div>
@@ -334,12 +371,12 @@
             <a href="#" class="overlay-wrapper">
                 <img src="img/showcase/project6.png" alt="Project 6 image" class="img-responsive underlay">
                 <span class="overlay">
-                  <span class="overlay-content"> <span class="h4">Product Training</span> </span>
+                  <span class="overlay-content"> <span class="h4">Project 6</span> </span>
                 </span>
               </a>
             <div class="item-details bg-noise">
               <h4 class="item-title">
-                  <a href="#">Product Training</a>
+                  <a href="#">Project 6</a>
                 </h4>
               <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
             </div>
@@ -348,17 +385,17 @@
             <a href="#" class="overlay-wrapper">
                 <img src="img/showcase/project7.png" alt="Project 7 image" class="img-responsive underlay">
                 <span class="overlay">
-                  <span class="overlay-content"> <span class="h4">Technology Training</span> </span>
+                  <span class="overlay-content"> <span class="h4">Project 7</span> </span>
                 </span>
               </a>
             <div class="item-details bg-noise">
               <h4 class="item-title">
-                  <a href="#">Technology Training</a>
+                  <a href="#">Project 7</a>
                 </h4>
               <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
             </div>
           </div>
-          <!--div class="item">
+          <div class="item">
             <a href="#" class="overlay-wrapper">
                 <img src="img/showcase/project8.png" alt="Project 8 image" class="img-responsive underlay">
                 <span class="overlay">
@@ -427,7 +464,7 @@
                 </h4>
               <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
             </div>
-          </div-->
+          </div>
         </div>
       </div>
     </div>
@@ -597,46 +634,31 @@ Usage: data-block-bg-img="IMAGE-URL" to apply a background image clearly via jQu
               Testimonials
             </h3>
           <blockquote>
-            <p>CloudReign Technologies, was the company that helped the institute to move to G Suite for Education. A detailed study was conducted and a plan was prepared that covered Project Management & Consulting, Basic Provisioning & Deployment and Training. </p>
-            <img src="img/misc/mpv.png" alt="Charles Spencer Chaplin">
+            <p>Our productivity &amp; sales are up! Customers are happy &amp; we couldn't be happier with this product!</p>
+            <img src="img/misc/charles-quote.png" alt="Charles Spencer Chaplin">
             <small>
-                <strong>M P Vijaykumar</strong>
+                <strong>Charles Chaplin</strong>
                 <br>
-                Academician
+                British comic actor
               </small>
           </blockquote>
         </div>
-        <div class="col-md-6 m-b-lg">
-          <h3 class="block-title">
-              Testimonials
-            </h3>
-          <blockquote>
-            <p>CloudReign was very helpful when we wanted to move our mail to Google. All aspects of the migration was handled professionally and the transition was smooth. They even helped us with the web-site hosting on Google servers. Very prompt & timely customer service.</p>
-            <!--img src="img/misc/mpv.png" alt="Charles Spencer Chaplin"-->
-            <small>
-                <strong>Sangeet Bagaria</strong>
-                <br>
-                Managing Director,
-                T & I Projects LTD.
-              </small>
-          </blockquote>
-        </div>
-        <!--Latest Blog posts>
+        <!--Latest Blog posts-->
         <div class="col-md-6 blog-roll">
           <h3 class="block-title">
               Latest From Our Blog
             </h3>
-          <!-- Blog post 1>
+          <!-- Blog post 1-->
           <div class="media">
             <div class="media-left hidden-xs">
-              <!-- Date desktop>
+              <!-- Date desktop -->
               <div class="date-wrapper"> <span class="date-m">Feb</span> <span class="date-d">01</span> </div>
             </div>
             <div class="media-body">
               <h4 class="media-heading">
                   <a href="#" class="text-weight-strong">amet urna integer urna enim, sit arcu pid in nec?</a>
                 </h4>
-              <!-- Meta details mobile>
+              <!-- Meta details mobile -->
               <ul class="list-inline meta text-muted visible-xs">
                 <li><i class="fa fa-calendar"></i> <span class="visible-md">Created:</span> Fri 1st Feb 2013</li>
                 <li><i class="fa fa-user"></i> <a href="#">Joe</a></li>
@@ -647,17 +669,17 @@ Usage: data-block-bg-img="IMAGE-URL" to apply a background image clearly via jQu
               </p>
             </div>
           </div>
-          <!-- Blog post 2>
+          <!-- Blog post 2 -->
           <div class="media">
             <div class="media-left hidden-xs">
-              <!-- Date desktop>
+              <!-- Date desktop -->
               <div class="date-wrapper"> <span class="date-m">Jan</span> <span class="date-d">17</span> </div>
             </div>
             <div class="media-body">
               <h4 class="media-heading">
                   <a href="#" class="text-weight-strong">a nec in sed hac ultrices cursus</a>
                 </h4>
-              <!-- Meta details mobile>
+              <!-- Meta details mobile -->
               <ul class="list-inline meta text-muted visible-xs">
                 <li><i class="fa fa-calendar"></i> <span class="visible-md">Created:</span> Thu 17th Jan 2013</li>
                 <li><i class="fa fa-user"></i> <a href="#">Joe</a></li>
@@ -668,7 +690,7 @@ Usage: data-block-bg-img="IMAGE-URL" to apply a background image clearly via jQu
               </p>
             </div>
           </div>
-        </div-->
+        </div>
       </div>
     </div>
   </div>
@@ -684,33 +706,33 @@ Usage: data-block-bg-img="IMAGE-URL" to apply a background image clearly via jQu
           <div class="row">
             <!--Client logos should be within a 120px wide by 60px height image canvas-->
             <div class="col-xs-6 col-md-2">
-              <a href="#" title="Client 1">
-                  <img src="img/clients/TiGlobal.png" alt="Client 1 logo" class="img-responsive">
+              <a href="https://bootstrapmade.com" title="Client 1">
+                  <img src="img/clients/client1.png" alt="Client 1 logo" class="img-responsive">
                 </a>
             </div>
             <div class="col-xs-6 col-md-2">
-              <a href="#" title="Client 2">
-                  <img src="img/clients/clarion-logo.png" alt="Client 2 logo" class="img-responsive">
+              <a href="https://bootstrapmade.com" title="Client 2">
+                  <img src="img/clients/client2.png" alt="Client 2 logo" class="img-responsive">
                 </a>
             </div>
             <div class="col-xs-6 col-md-2">
-              <a href="#" title="Client 3">
-                  <img src="img/clients/insasys-logo.png" alt="Client 3 logo" class="img-responsive">
+              <a href="https://bootstrapmade.com" title="Client 3">
+                  <img src="img/clients/client3.png" alt="Client 3 logo" class="img-responsive">
                 </a>
             </div>
             <div class="col-xs-6 col-md-2">
-              <a href="#" title="Client 4">
-                  <img src="img/clients/greatlakes-logo.png" alt="Client 4 logo" class="img-responsive">
+              <a href="https://bootstrapmade.com" title="Client 4">
+                  <img src="img/clients/client4.png" alt="Client 4 logo" class="img-responsive">
                 </a>
             </div>
             <div class="col-xs-6 col-md-2">
-              <a href="#" title="Client 5">
-                  <img src="img/clients/bannari-logo.png" alt="Client 5 logo" class="img-responsive">
+              <a href="https://bootstrapmade.com" title="Client 5">
+                  <img src="img/clients/client5.png" alt="Client 5 logo" class="img-responsive">
                 </a>
             </div>
             <div class="col-xs-6 col-md-2">
-              <a href="#" title="Client 6">
-                  <img src="img/clients/harita-logo.png" alt="Client 6 logo" class="img-responsive">
+              <a href="https://bootstrapmade.com" title="Client 6">
+                  <img src="img/clients/client6.png" alt="Client 6 logo" class="img-responsive">
                 </a>
             </div>
           </div>
@@ -819,11 +841,11 @@ Usage: data-block-bg-img="IMAGE-URL" to apply a background image clearly via jQu
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery.serialize-object.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap-dropdownhover.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/stellar/stellar.min.js"></script>
   <script src="lib/waypoints/waypoints.min.js"></script>
   <script src="lib/counterup/counterup.min.js"></script>
+  <script src="contactform/contactform.js"></script>
 
   <!-- Template Specisifc Custom Javascript File -->
   <script src="js/custom.js"></script>
