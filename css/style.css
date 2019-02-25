@@ -1808,6 +1808,10 @@ a:hover {
     background-image: url(../img/backgrounds/metro.png);
 }
 
+.cr3132 {
+    background-image: url(../img/backgrounds/3132.png);
+}
+
 a.btn-hh-trigger {
     display: block;
     font-size: 0 !important;
