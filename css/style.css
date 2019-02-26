@@ -1812,6 +1812,18 @@ a:hover {
     background-image: url(../img/backgrounds/3132.png);
 }
 
+.blue1 {
+    background-image: url(../img/backgrounds/blue-1.png);
+}
+
+.blue2 {
+    background-image: url(../img/backgrounds/blue1.jpg);
+}
+
+.globe {
+    background-image: url(../img/backgrounds/globe.jpg);
+}
+
 a.btn-hh-trigger {
     display: block;
     font-size: 0 !important;
@@ -2110,7 +2122,7 @@ a.btn-hh-trigger.target-open:after {
 
 .navbar-slogan {
     float: left;
-    width: 200px;
+    width: 160px;
     height: 80px;
     padding-top: 1.5em;
     padding-left: 1.5em;
@@ -2124,7 +2136,7 @@ a.btn-hh-trigger.target-open:after {
 
 .navbar-slogan1 {
     float: left;
-    width: 130px;
+    width: 220px;
     height: 80px;
     padding-top: 1.5em;
     padding-left: 1.5em;
