@@ -1,7 +1,8 @@
 /* Style the navbar */
 
 #crnavbar {
-    overflow: hidden;
+    /*overflow: hidden;*/
+    z-index: 1;
 }
 
 
