@@ -443,7 +443,7 @@
 
 .block.block-bg-grey-dark,
 .block.block-bg-grey-dark:after {
-    background-color: #212324;
+    /*background-color: #212324;*/
     color: white;
 }
 
