@@ -2462,7 +2462,8 @@ ul.nav-stacked li.active a,
 ul.nav-stacked li.active a:hover {
     color: #ffffff;
     margin: 0;
-    background: #212324;
+    /*background: #212324;*/
+    background: #01164B;
     padding-right: 25px;
 }
 
