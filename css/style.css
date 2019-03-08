@@ -1432,6 +1432,7 @@
 }
 
 .page-header small {
+    padding-top: 5px;
     font-size: 18px;
     display: block;
 }
