@@ -301,9 +301,9 @@
                     </div>
                     <div class="block-highlight block-pd-h block-pd-sm">
                         <h3 class="block-title">
-                            Our innovation is ready
+                            Signup for the 21st Century Classroom
                         </h3>
-                        <p class="text-fancy">…...<a href="#footer">Contact us</a>…….Let’s collaborate to bring the best.</p>
+                        <p class="text-fancy">Spark learning with G Suite for Education <a href="#footer" onClick="autoFill();return true;">Contact us</a> for more details</p>
                     </div>
                     <!--div class="block">
                         <h3 class="block-title">
@@ -456,7 +456,7 @@
                                 <div class="validation"></div>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                                 <div class="validation"></div>
                             </div>
                             <div class="text-center"><button type="submit" id="submit">Send Message</button></div>
@@ -507,7 +507,20 @@
 
         </div>
     </footer>
+    <script type="text/javascript">
+        function autoFill() {
+            document.getElementById('subject').value = "We are interested in G Suite for Education";
+            document.getElementById('message').value = "We are interested in implementing G SUite for Education in our Institution. Please call us on <your phone no> or Mail us on <your Email id>";
 
+            var radioElements = document.getElementsByName("input3");
+
+            for (var i = 0; i < radioElements.length; i++) {
+                if (radioElements[i].getAttribute('value') == 'Radio3') {
+                    radioElements[i].checked = true;
+                }
+            }
+        }
+    </script>
     <!-- Required JavaScript Libraries -->
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/jquery/jquery.serialize-object.min.js"></script>
